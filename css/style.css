@@ -6,10 +6,10 @@
 
 .container1 {
   background-color: #1B1C17;
-  width: 100vw;
+  
   height: 100vh;
   margin: auto;
-  padding: 1%;
+  padding: 0%;
   display: flex;
   align-items: center;
   font-family: 'Rubik', sans-serif;
@@ -150,7 +150,7 @@
   background-color: #1B1C17;
   font-family: 'Rubik', sans-serif;
   margin: auto;
-  padding: 1%;
+  padding: 0%;
   display: grid;
   grid-template-columns: 0.4fr 1.6fr 1fr;
   grid-template-rows: 0.5fr 4fr 0.6fr;
@@ -212,10 +212,10 @@
 
 .container4 {
   background-color: #1B1C17;
-  width: 100vw;
+  min-height: auto;
   height: 100vh;
   margin: auto;
-  padding: 1%;
+  padding: 0%;
   display: flex;
   align-items: center;
   font-family: 'Rubik', sans-serif;
@@ -282,10 +282,10 @@
 
 .container3 {
   background-color: #1B1C17;
-  width: 100vw;
+  
   height: 100vh;
   margin: auto;
-  padding: 1%;
+  padding: 0%;
   display: flex;
   align-items: center;
   font-family: 'Rubik', sans-serif;
@@ -392,10 +392,10 @@
 @media screen and (max-width: 768px) {
   .container1 {
     background-color: #1B1C17;
-    width: 90vw;
+   
     height: 90vh;
-    margin: auto;
-    padding: 1%;
+    margin: 0%;
+    padding: 0%;
     display: flex;
     align-items: center;
     font-family: 'Rubik', sans-serif;
@@ -524,8 +524,8 @@
   .container2 {
     background-color: #1B1C17;
     font-family: 'Rubik', sans-serif;
-    margin: auto;
-    padding: 1%;
+    margin: 0%;
+    padding: 0%;
     display: grid;
     grid-template-columns:  1fr ;
     grid-template-rows: 0.2fr 1fr 0.1fr;
@@ -623,10 +623,10 @@
 @media screen and (max-width: 420px) {
   .container1 {
     background-color: #1B1C17;
-    width: 90vw;
-    height: 90vh;
+    min-height:auto ;
+    
     margin: auto;
-    padding: 1%;
+    padding: 0%;
     display: flex;
     align-items: center;
     font-family: 'Rubik', sans-serif;
@@ -755,8 +755,8 @@
   .container2 {
     background-color: #1B1C17;
     font-family: 'Rubik', sans-serif;
-    margin: auto;
-    padding: 1%;
+   
+    padding: 0%;
     display: grid;
     grid-template-columns:  1fr ;
     grid-template-rows: 0.2fr 1fr 0.1fr;
