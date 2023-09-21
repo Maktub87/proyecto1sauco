@@ -1,0 +1,76 @@
+.mainclientes {
+    .clientestitulo {
+        font-size: 3rem;
+        color: #C54508;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .cajas {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-evenly;
+        margin: 0 auto;
+        padding: auto;
+        text-align: center;
+
+        .caja1 {
+            background-color: #C54508;
+            width: 500px;
+            height: 800px;
+            margin: 1%;
+            border-radius: 10%;
+            opacity: 0.7;
+
+
+
+        }
+
+        .caja1:hover {
+            opacity: 1;
+        }
+
+        .caja2 {
+            background-color: #FFCC01;
+            width: 500px;
+            height: 800px;
+            margin: 1%;
+            border-radius: 10%;
+            opacity: 0.7;
+
+        }
+
+        .caja2:hover {
+            opacity: 1;
+        }
+
+        .caja3 {
+            background-color: #ffffff;
+            width: 500px;
+            height: 800px;
+            margin: 1%;
+            border-radius: 10%;
+            opacity: 0.7;
+
+            .caja3:hover {
+                opacity: 1;
+            }
+        }
+
+        .caja3:hover {
+            opacity: 1;
+        }
+
+        .imgclientes {
+            width: 80%;
+            border-radius: 10%;
+            margin: 10%;
+        }
+
+
+
+    }
+}

@@ -1,0 +1,45 @@
+.header {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+    grid-area: header;
+
+    .logoprincipal {
+        width: 200px;
+        margin: 2px;
+        border-radius: 10px;
+    }
+
+    div {
+        .headermenu {
+
+            margin: 3px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            padding: 0.5rem;
+
+        }
+
+        .listmenu a {
+            color: #1B1C17;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            padding: 1.5rem;
+
+        }
+
+        .listmenu a:hover {
+            background-color: #1B1C17;
+            color: #C54508;
+            border-radius: 10%;
+        }
+    }
+}

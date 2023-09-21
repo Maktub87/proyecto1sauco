@@ -1,0 +1,59 @@
+.mainservicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    grid-area: mainservicios;
+
+    
+        .servi {
+            display: flex;
+            flex-direction: row;
+            align-content: space-evenly;
+            text-align: center;
+
+            
+            height: 50vh;
+
+            .colnaranja {
+                background-color: #C54508;
+                margin: 3px;
+                padding: 10px;
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+                .list {
+                    list-style: none;
+                }
+
+
+
+            }
+
+            .colamarillo {
+                background-color: #FFCC01;
+                margin: 3px;
+                padding: 2px;
+                font-size: 1.5rem;
+                .list {
+                    list-style: none;
+                }
+
+            }
+
+            .colblanco {
+                background-color: antiquewhite;
+                margin: 3px;
+                padding: 2px;
+                font-size: 1.5rem;
+                .list {
+                    list-style: none;
+                }
+            }
+
+            
+
+        }
+    
+}
