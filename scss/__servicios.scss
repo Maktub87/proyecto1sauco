@@ -1,8 +1,7 @@
 .container4 {
     background-color: #1B1C17;
-    min-height: auto;
-    height: 100vh;
-    margin: auto;
+    height: 100vh; 
+    margin: 0;  
     padding: 0%;
     display: flex;
     align-items: center;
@@ -19,26 +18,31 @@
 .mainservicios {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
+    align-content: center;
 
 
     grid-area: mainservicios;
 
     
         .servi {
+            width: 50%;
+            height: 80%;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            justify-content: center;
             align-content: space-evenly;
+            align-content: center;
             text-align: center;
-
             
-            height: 50vh;
+            
+        }
 
             .colnaranja {
                 background-color: #C54508;
                 margin: 3px;
-                padding: 10px;
+                padding: 2px;
                 font-size: 1.5rem;
                 line-height: 1.5rem;
                 .list {
@@ -71,7 +75,8 @@
             }
 
             
-
+        
         }
+
+        
     
-}
