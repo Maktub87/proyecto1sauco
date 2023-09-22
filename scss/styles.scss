@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-@import "__generales";
+
 @import "__menunav";
-@import "__index";
 @import "__footer";
+@import "__index";
 @import "__sobrenos";
-@import "__footer2";
 @import "__servicios";
 @import "__clientes";
 @import "__contacto";
+@import "__queries768px"

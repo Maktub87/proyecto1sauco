@@ -1,3 +1,30 @@
+.container2 {
+    background-color: #1B1C17;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr 1fr;
+    grid-template-rows: 0.5fr 4fr 0.6fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+
+    .header {
+        grid-area: header;
+    }
+
+    .footer2 {
+        grid-area: footer;
+    }
+
+}
 .main {
     background-color: #C54508;
     color: #1B1C17;
@@ -10,7 +37,7 @@
     align-items: center;
     justify-content: space-evenly;
 
-    .div {
+    .cajasobre {
         .sobrenos {
             text-align: center;
             font-size: 2.5rem;
@@ -18,9 +45,15 @@
             word-spacing: 2px;
             margin: 3%;
         }
+        .parnosotros{
+            font-size: 1.5rem;
+            word-spacing: 3px;
+        }
 
         .imgnos {
             border-radius: 10%;
+            width: 400px;
+            margin: 2px;
         }
 
     }

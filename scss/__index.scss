@@ -1,3 +1,21 @@
+.container1 {
+    background-color: #1B1C17;
+
+    height: 100vh;
+    margin: auto;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 0.4fr 1.8fr 0.3fr;
+    gap: 2px 2px;
+    grid-template-areas:
+        "header header header"
+        "article article aside"
+        "footer footer footer";
+}
 .aside {
     display: flex;
     flex-direction: column;
@@ -17,6 +35,7 @@
 
 .article {
     background-color: #FFCC01;
+    height: 90%;
     border-radius: 10px;
     font-size: 2.5rem;
     margin: 2px;
