@@ -1,14 +1,15 @@
 .container1 {
     background-color: #1B1C17;
-    width:97vw;
+    width:100vw;
     height: 100vh;
+    margin: auto;
     padding: 0%;
     display: flex;
     align-items: center;
     font-family: 'Rubik', sans-serif;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 0.4fr 1.8fr 0.3fr;
+    grid-template-columns:2fr 1fr;
+    grid-template-rows: 0.4fr 1.8fr 0.3fr ;
     gap: 2px 2px;
     grid-template-areas:
         "header header "
@@ -39,7 +40,7 @@
 
 .article {
     background-color: #FFCC01;
-    height: 90%;
+    height: fit-content;
     border-radius: 10px;
     font-size: 2.5rem;
     margin: 2px;

@@ -16,32 +16,28 @@
 }
 .mainservicios {
     display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    align-content: center;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+    align-content: space-evenly;
 
 
     grid-area: mainservicios;
 
     
-        .servi {
-            width: 30%;
-            height: 80%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-content: space-evenly;
-            align-content: center;
-            text-align: center;
-            
-            
-        }
+    
 
             .colnaranja {
                 background-color: #C54508;
+                width: 300px;
+                height: 400px;
                 margin: 3px;
                 padding: 2px;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: space-evenly;
+                text-align: center;
                 font-size: 1.5rem;
                 line-height: 1.5rem;
                 .list {
@@ -54,8 +50,16 @@
 
             .colamarillo {
                 background-color: #FFCC01;
+                width: 300px;
+                height: 400px;
                 margin: 3px;
                 padding: 2px;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                align-content: center;
+                justify-content: space-evenly;
+                text-align: center;
                 font-size: 1.5rem;
                 .list {
                     list-style: none;
@@ -66,12 +70,34 @@
             .colblanco {
                 background-color: antiquewhite;
                 color: #1B1C17;
+                width: 300px;
+                height: 400px;
                 margin: 3px;
                 padding: 2px;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                align-content: center;
+                justify-content: space-evenly;
+                text-align: center;
                 font-size: 1.5rem;
                 .list {
                     list-style: none;
                 }
+            }
+            .boton{
+                background-color: #1B1C17;
+                color: aliceblue;
+                border: none;
+                border-radius: 20%;
+                margin-left: 20%;
+                width: 180px;
+                font-size: 1rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
             }
 
             

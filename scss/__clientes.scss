@@ -15,10 +15,12 @@
         "header "
         "mainclientes"
         "footer ";
-        .mainclientes {
-            grid-area: mainclientes;
-        }
+
+    .mainclientes {
+        grid-area: mainclientes;
+    }
 }
+
 .mainclientes {
     .clientestitulo {
         font-size: 3rem;
@@ -52,6 +54,7 @@
 
         .caja1:hover {
             opacity: 1;
+            transform: scale(105%);
         }
 
         .caja2 {
@@ -66,6 +69,7 @@
 
         .caja2:hover {
             opacity: 1;
+            transform: scale(105%);
         }
 
         .caja3 {
@@ -76,13 +80,12 @@
             border-radius: 10%;
             opacity: 0.7;
 
-            .caja3:hover {
-                opacity: 1;
-            }
+
         }
 
         .caja3:hover {
             opacity: 1;
+            transform: scale(105%);
         }
 
         .imgclientes {

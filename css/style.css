@@ -698,6 +698,7 @@
 .header div .listmenu a {
   color: #1B1C17;
   text-decoration: none;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   padding: 1.5rem;
@@ -730,8 +731,9 @@
 }
 .container1 {
   background-color: #1B1C17;
-  width: 97vw;
+  width: 100vw;
   height: 100vh;
+  margin: auto;
   padding: 0%;
   display: flex;
   align-items: center;
@@ -760,7 +762,7 @@
 
 .article {
   background-color: #FFCC01;
-  height: 90%;
+  height: fit-content;
   border-radius: 10px;
   font-size: 2.5rem;
   margin: 2px;
@@ -803,16 +805,20 @@
 .main {
   background-color: #FFCC01;
   color: #1B1C17;
-  margin: 2px;
+  width: 90%;
+  margin: auto;
   font-size: 1.5rem;
   border-radius: 5%;
   grid-area: main;
   display: flex;
   flex-direction: column;
+  align-content: center;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  justify-items: center;
 }
 .main .cajasobre .sobrenos {
+  height: fit-content;
   text-align: center;
   font-size: 2.5rem;
   letter-spacing: 2px;
@@ -820,13 +826,17 @@
   margin: 3%;
 }
 .main .cajasobre .parnosotros {
+  margin: 2px;
+  padding: 3px;
   font-size: 1.5rem;
   word-spacing: 3px;
 }
 .main .cajasobre .imgnos {
   border-radius: 10%;
-  width: 400px;
-  margin: 2px;
+  width: 500px;
+  height: 300px;
+  margin: 3px;
+  padding: 2px;
 }
 
 .container4 {
@@ -845,26 +855,23 @@
 
 .mainservicios {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  align-content: center;
-  grid-area: mainservicios;
-}
-.mainservicios .servi {
-  width: 30%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-content: space-evenly;
-  align-content: center;
-  text-align: center;
+  grid-area: mainservicios;
 }
 .mainservicios .colnaranja {
   background-color: #C54508;
+  width: 300px;
+  height: 400px;
   margin: 3px;
   padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
@@ -873,8 +880,16 @@
 }
 .mainservicios .colamarillo {
   background-color: #FFCC01;
+  width: 300px;
+  height: 400px;
   margin: 3px;
   padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
   font-size: 1.5rem;
 }
 .mainservicios .colamarillo .list {
@@ -883,12 +898,34 @@
 .mainservicios .colblanco {
   background-color: antiquewhite;
   color: #1B1C17;
+  width: 300px;
+  height: 400px;
   margin: 3px;
   padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
   font-size: 1.5rem;
 }
 .mainservicios .colblanco .list {
   list-style: none;
+}
+.mainservicios .boton {
+  background-color: #1B1C17;
+  color: aliceblue;
+  border: none;
+  border-radius: 20%;
+  margin-left: 20%;
+  width: 180px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .container3 {
@@ -936,6 +973,7 @@
 }
 .mainclientes .cajas .caja1:hover {
   opacity: 1;
+  transform: scale(105%);
 }
 .mainclientes .cajas .caja2 {
   background-color: #FFCC01;
@@ -947,6 +985,7 @@
 }
 .mainclientes .cajas .caja2:hover {
   opacity: 1;
+  transform: scale(105%);
 }
 .mainclientes .cajas .caja3 {
   background-color: #ffffff;
@@ -956,11 +995,9 @@
   border-radius: 10%;
   opacity: 0.7;
 }
-.mainclientes .cajas .caja3 .caja3:hover {
-  opacity: 1;
-}
 .mainclientes .cajas .caja3:hover {
   opacity: 1;
+  transform: scale(105%);
 }
 .mainclientes .cajas .imgclientes {
   width: 80%;
