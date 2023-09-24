@@ -9,15 +9,16 @@
     font-family: 'Rubik', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:0.5fr 1.5fr;
+    grid-template-rows: 0.5fr 1.5fr;
     gap: 2px 2px;
     grid-template-areas:
         "header "
         "cajacontacto"
         "footer ";
-        .cajacontacto {
-            grid-area: cajacontacto;
-        }
+
+    .cajacontacto {
+        grid-area: cajacontacto;
+    }
 }
 
 .cajacontacto {
@@ -33,3 +34,177 @@
     justify-content: space-evenly;
 
 }
+
+@media screen and (max-width: 768px) {
+    .container5 {
+        background-color: antiquewhite;
+
+        height: 100vh;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1.5fr;
+        gap: 2px 2px;
+        grid-template-areas:
+            "header "
+            "cajacontacto"
+            "footer ";
+
+        .cajacontacto {
+            grid-area: cajacontacto;
+        }
+    }
+
+    .header {
+        background-color: white;
+        border-radius: 10px;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        grid-area: header;
+
+        .logoprincipal {
+            width: 100px;
+            margin: 2px;
+            border-radius: 10px;
+        }
+
+        div {
+            .headermenu {
+
+                margin: 3px;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                padding: 0.5rem;
+
+                .listmenu a {
+                    color: #1B1C17;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    padding: 1.5rem;
+
+                }
+
+                .listmenu a:hover {
+                    background-color: #1B1C17;
+                    color: #ffffff;
+                    border-radius: 10%;
+                }
+
+
+
+            }
+        }
+    }
+
+    .cajacontacto {
+        background-color: antiquewhite;
+        width: 80vw;
+        height: 60vh;
+        margin: 3% auto;
+        padding: 2%;
+        border-radius: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+    }
+
+}
+@media screen and (max-width: 420px){
+    .container5 {
+        background-color: antiquewhite;
+
+        height: 100vh;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1.5fr;
+        gap: 2px 2px;
+        grid-template-areas:
+            "header "
+            "cajacontacto"
+            "footer ";
+
+        .cajacontacto {
+            grid-area: cajacontacto;
+        }
+    }
+
+    .header {
+        background-color: white;
+        border-radius: 10px;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        grid-area: header;
+
+        .logoprincipal {
+            width: 100px;
+            margin: 2px;
+            border-radius: 10px;
+        }
+
+        div {
+            .headermenu {
+
+                margin: 3px;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                padding: 0.5rem;
+
+                .listmenu a {
+                    color: #1B1C17;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    padding: 1.5rem;
+
+                }
+
+                .listmenu a:hover {
+                    background-color: #1B1C17;
+                    color: #ffffff;
+                    border-radius: 10%;
+                }
+
+
+
+            }
+        }
+    }
+
+    .cajacontacto {
+        background-color: antiquewhite;
+        width: 80vw;
+        height: 60vh;
+        margin: 3% auto;
+        padding: 2%;
+        border-radius: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+    }
+
+}
+

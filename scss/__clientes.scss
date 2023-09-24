@@ -98,3 +98,210 @@
 
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container3 {
+        background-color: antiquewhite;
+
+        height: 100vh;
+        margin: auto;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 2px 2px;
+        grid-template-areas:
+            "header "
+            "mainclientes"
+            "footer ";
+
+        .mainclientes {
+            grid-area: mainclientes;
+        }
+    }
+
+    .mainclientes {
+        .clientestitulo {
+            margin: 2px;
+            font-size: 3rem;
+            color: #1B1C17;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        .cajas {
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: auto;
+            text-align: center;
+
+            .caja1 {
+                background-color: #C54508;
+                width: 90vw;
+                height: 700px;
+                margin: 1%;
+                border-radius: 10%;
+                opacity: 0.7;
+
+
+
+            }
+
+            .caja1:hover {
+                opacity: 1;
+            }
+
+            .caja2 {
+                background-color: #FFCC01;
+                width: 90vw;
+                height: 800px;
+                margin: 1%;
+                border-radius: 10%;
+                opacity: 0.7;
+
+            }
+
+            .caja2:hover {
+                opacity: 1;
+            }
+
+            .caja3 {
+                background-color: #ffffff;
+                width: 90vw;
+                height: 800px;
+                margin: 1%;
+                border-radius: 10%;
+                opacity: 0.7;
+
+                .caja3:hover {
+                    opacity: 1;
+                }
+            }
+
+            .caja3:hover {
+                opacity: 1;
+            }
+
+            .imgclientes {
+                width: 70%;
+                border-radius: 10%;
+                margin: 1%;
+            }
+
+
+
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container3 {
+        background-color: antiquewhite;
+        height: 100vh;
+        margin: auto;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 2px 2px;
+        grid-template-areas:
+            "header "
+            "mainclientes"
+            "footer ";
+
+        .mainclientes {
+            grid-area: mainclientes;
+        }
+    }
+
+    .mainclientes {
+        .clientestitulo {
+            margin: 2px;
+            font-size: 3rem;
+            color: #1B1C17;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        .cajas {
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: auto;
+            text-align: center;
+
+            .caja1 {
+                background-color: #C54508;
+                width: 90vw;
+                height: 600px;
+                margin: 1%;
+                border-radius: 10%;
+                opacity: 0.7;
+
+
+
+            }
+
+            .caja1:hover {
+                opacity: 1;
+            }
+
+            .caja2 {
+                background-color: #FFCC01;
+                width: 90vw;
+                height: 600px;
+                margin: 1%;
+                border-radius: 10%;
+                opacity: 0.7;
+
+            }
+
+            .caja2:hover {
+                opacity: 1;
+            }
+
+            .caja3 {
+                background-color: #ffffff;
+                width: 90vw;
+                height: 600px;
+                margin: 1%;
+                border-radius: 10%;
+                opacity: 0.7;
+
+
+            }
+
+            .caja3:hover {
+                opacity: 1;
+            }
+
+            .imgclientes {
+                width: 70%;
+                border-radius: 10%;
+                margin: 1%;
+            }
+
+
+
+        }
+    }
+}
