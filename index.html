@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
@@ -15,8 +16,8 @@
 
 <body class="container1">
   <header class="header">
-    <img class="logoprincipal" src="./images/logo1.png" alt="imglogo">
-    <div>
+    <div data-aos="fade-left"><img class="logoprincipal" src="./images/logo1.png" alt="imglogo"></div>
+    <div data-aos="fade-right">
       <ul class=" headermenu">
         <li class="listmenu">
           <a href="index.html">INICIO</a>
@@ -44,6 +45,8 @@
     <img class="imginicio" src="./images/img1.jpg" alt="imgmain">
     <img class="imginicio" src="./images/img3.jpeg" alt="imgmain">
 
+
+
   </aside>
 
   <article class=" article">
@@ -65,7 +68,8 @@
     <h3 class="marca">
       Created by @Yisus
     </h3>
-    <img class="pie" src="./images/Recurso 3.png" alt="imagen">
+    <div data-aos="fade-left"><img class="pie" src="./images/Recurso 3.png" alt="imagen"></div>
+
 
   </footer>
 
@@ -74,5 +78,9 @@
 
 </body>
 <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ easing: 'ease-out-back', duration: 2000 });
+</script>
 
 </html>

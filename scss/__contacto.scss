@@ -1,4 +1,4 @@
-.container3 {
+.container5 {
     background-color: #1B1C17;
 
     height: 100vh;
@@ -9,16 +9,17 @@
     font-family: 'Rubik', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows:0.5fr 1.5fr;
     gap: 2px 2px;
     grid-template-areas:
         "header "
-        "mainclientes"
+        "cajacontacto"
         "footer ";
-        .mainclientes {
-            grid-area: mainclientes;
+        .cajacontacto {
+            grid-area: cajacontacto;
         }
 }
+
 .cajacontacto {
     background-color: #FFCC01;
     width: 60vw;

@@ -1,10 +1,11 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+@import "__queries";
 @import "__menunav";
 @import "__footer";
 @import "__index";
@@ -12,4 +13,3 @@
 @import "__servicios";
 @import "__clientes";
 @import "__contacto";
-@import "__queries768px"
