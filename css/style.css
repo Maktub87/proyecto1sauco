@@ -40,6 +40,80 @@
   border-radius: 10%;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    background: linear-gradient(to right, #C54508, white, #C54508);
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: header;
+  }
+  .header .logoprincipal {
+    width: auto;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .header div .headermenu {
+    margin: 3px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .header div .listmenu a {
+    color: #1B1C17;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  .header div .listmenu a:hover {
+    background-color: #1B1C17;
+    color: #C54508;
+    border-radius: 10%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header {
+    background: linear-gradient(to right, #C54508, white, #C54508);
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: header;
+  }
+  .header .logoprincipal {
+    width: auto;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .header div .headermenu {
+    margin: 3px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .header div .listmenu a {
+    color: #1B1C17;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  .header div .listmenu a:hover {
+    background-color: #1B1C17;
+    color: #C54508;
+    border-radius: 10%;
+  }
+}
 .footer1 {
   background: linear-gradient(white, #C54508);
   border-radius: 10px;
@@ -63,17 +137,65 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+  .footer1 {
+    background: linear-gradient(to right, #C54508, white, #C54508);
+    border-radius: 10px;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-area: footer;
+  }
+  .footer1 .botoninicio {
+    font-size: 1.5rem;
+  }
+  .footer1 .insta {
+    width: 60px;
+    height: 60px;
+  }
+  .footer1 .marca {
+    display: flex;
+    align-items: center;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer1 {
+    background: linear-gradient(to right, #C54508, white, #C54508);
+    border-radius: 10px;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-area: footer;
+  }
+  .footer1 .botoninicio {
+    font-size: 1.5rem;
+  }
+  .footer1 .insta {
+    width: 60px;
+    height: 60px;
+  }
+  .footer1 .marca {
+    display: flex;
+    align-items: center;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
 .container1 {
   background-color: #1B1C17;
   width: 100vw;
   height: 100vh;
   margin: auto;
-  padding: 0%;
+  padding: 0;
   display: flex;
   align-items: center;
   font-family: "Rubik", sans-serif;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 0.4fr 1.8fr 0.3fr;
   gap: 2px 2px;
   grid-template-areas: "header header " "article aside " "footer footer ";
@@ -174,7 +296,7 @@
     padding: 4px;
     margin: 4px;
     border-radius: 10px;
-    width: 600px;
+    width: 400px;
   }
   .article {
     background-color: antiquewhite;
@@ -280,7 +402,7 @@
     padding: 4px;
     margin: 4px;
     border-radius: 10px;
-    width: 600px;
+    width: 400px;
   }
   .article {
     background-color: antiquewhite;
@@ -459,30 +581,6 @@
     word-spacing: 2px;
     margin: 3%;
   }
-  .footer1 {
-    background-color: antiquewhite;
-    border-radius: 10px;
-    padding: 2%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    grid-area: footer;
-  }
-  .footer1 .botoninicio {
-    font-size: 0.7rem;
-  }
-  .footer1 .insta {
-    width: 40px;
-    height: 40px;
-  }
-  .footer1 .marca {
-    display: flex;
-    align-items: flex-end;
-  }
-  .footer1 .pie {
-    width: 100px;
-  }
 }
 @media screen and (max-width: 420px) {
   .container2 {
@@ -557,30 +655,6 @@
     letter-spacing: 2px;
     word-spacing: 2px;
     margin: 3%;
-  }
-  .footer1 {
-    background-color: antiquewhite;
-    border-radius: 10px;
-    padding: 2%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    grid-area: footer;
-  }
-  .footer1 .botoninicio {
-    font-size: 0.7rem;
-  }
-  .footer1 .insta {
-    width: 40px;
-    height: 40px;
-  }
-  .footer1 .marca {
-    display: flex;
-    align-items: flex-end;
-  }
-  .footer1 .pie {
-    width: 100px;
   }
 }
 .container4 {
@@ -696,15 +770,18 @@
   }
   .mainservicios {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     align-content: center;
     justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
     grid-area: mainservicios;
   }
   .mainservicios .servi {
-    width: 40%;
+    width: 60%;
     height: 80%;
     margin: 2px;
     display: flex;
@@ -723,6 +800,9 @@
   .mainservicios .colnaranja .list {
     list-style: none;
   }
+  .mainservicios .colnaranja:hover {
+    transform: scale(100%);
+  }
   .mainservicios .colamarillo {
     background-color: #FFCC01;
     margin: 3px;
@@ -731,6 +811,9 @@
   }
   .mainservicios .colamarillo .list {
     list-style: none;
+  }
+  .mainservicios .colamarillo:hover {
+    transform: scale(100%);
   }
   .mainservicios .colblanco {
     background-color: #1B1C17;
@@ -742,29 +825,8 @@
   .mainservicios .colblanco .list {
     list-style: none;
   }
-  .footer1 {
-    background-color: #FFCC01;
-    border-radius: 10px;
-    padding: 2%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    grid-area: footer;
-  }
-  .footer1 .botoninicio {
-    font-size: 0.7rem;
-  }
-  .footer1 .insta {
-    width: 40px;
-    height: 40px;
-  }
-  .footer1 .marca {
-    display: flex;
-    align-items: flex-end;
-  }
-  .footer1 .pie {
-    width: 100px;
+  .mainservicios .colblanco:hover {
+    transform: scale(100%);
   }
 }
 @media screen and (max-width: 420px) {
@@ -827,30 +889,6 @@
   }
   .mainservicios .colblanco .list {
     list-style: none;
-  }
-  .footer1 {
-    background-color: #FFCC01;
-    border-radius: 10px;
-    padding: 2%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    grid-area: footer;
-  }
-  .footer1 .botoninicio {
-    font-size: 0.7rem;
-  }
-  .footer1 .insta {
-    width: 40px;
-    height: 40px;
-  }
-  .footer1 .marca {
-    display: flex;
-    align-items: flex-end;
-  }
-  .footer1 .pie {
-    width: 100px;
   }
 }
 .container3 {
@@ -978,6 +1016,7 @@
   }
   .mainclientes .cajas .caja1:hover {
     opacity: 1;
+    transform: scale(100%);
   }
   .mainclientes .cajas .caja2 {
     background-color: #FFCC01;
@@ -989,6 +1028,7 @@
   }
   .mainclientes .cajas .caja2:hover {
     opacity: 1;
+    transform: scale(100%);
   }
   .mainclientes .cajas .caja3 {
     background-color: #ffffff;
@@ -998,11 +1038,9 @@
     border-radius: 10%;
     opacity: 0.7;
   }
-  .mainclientes .cajas .caja3 .caja3:hover {
-    opacity: 1;
-  }
   .mainclientes .cajas .caja3:hover {
     opacity: 1;
+    transform: scale(100%);
   }
   .mainclientes .cajas .imgclientes {
     width: 70%;
@@ -1136,40 +1174,6 @@
   .container5 .cajacontacto {
     grid-area: cajacontacto;
   }
-  .header {
-    background-color: white;
-    border-radius: 10px;
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    grid-area: header;
-  }
-  .header .logoprincipal {
-    width: 100px;
-    margin: 2px;
-    border-radius: 10px;
-  }
-  .header div .headermenu {
-    margin: 3px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-  }
-  .header div .headermenu .listmenu a {
-    color: #1B1C17;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    padding: 1.5rem;
-  }
-  .header div .headermenu .listmenu a:hover {
-    background-color: #1B1C17;
-    color: #ffffff;
-    border-radius: 10%;
-  }
   .cajacontacto {
     background-color: antiquewhite;
     width: 80vw;
@@ -1186,7 +1190,7 @@
 @media screen and (max-width: 420px) {
   .container5 {
     background-color: antiquewhite;
-    height: 100vh;
+    height: fit-content;
     margin: 0%;
     padding: 0%;
     display: flex;
@@ -1194,51 +1198,17 @@
     font-family: "Rubik", sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1.5fr;
+    grid-template-rows: 0.5fr;
     gap: 2px 2px;
     grid-template-areas: "header " "cajacontacto" "footer ";
   }
   .container5 .cajacontacto {
     grid-area: cajacontacto;
   }
-  .header {
-    background-color: white;
-    border-radius: 10px;
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    grid-area: header;
-  }
-  .header .logoprincipal {
-    width: 100px;
-    margin: 2px;
-    border-radius: 10px;
-  }
-  .header div .headermenu {
-    margin: 3px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-  }
-  .header div .headermenu .listmenu a {
-    color: #1B1C17;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    padding: 1.5rem;
-  }
-  .header div .headermenu .listmenu a:hover {
-    background-color: #1B1C17;
-    color: #ffffff;
-    border-radius: 10%;
-  }
   .cajacontacto {
     background-color: antiquewhite;
     width: 80vw;
-    height: 60vh;
+    height: fit-content;
     margin: 3% auto;
     padding: 2%;
     border-radius: 10%;

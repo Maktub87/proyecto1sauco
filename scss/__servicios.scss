@@ -45,11 +45,12 @@
         .list {
             list-style: none;
         }
-       
+
 
 
     }
-    .colnaranja:hover{
+
+    .colnaranja:hover {
         transform: scale(120%);
     }
 
@@ -73,7 +74,8 @@
         }
 
     }
-    .colamarillo:hover{
+
+    .colamarillo:hover {
         transform: scale(120%);
     }
 
@@ -97,7 +99,8 @@
             list-style: none;
         }
     }
-    .colblanco:hover{
+
+    .colblanco:hover {
         transform: scale(120%);
     }
 
@@ -115,7 +118,7 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-    }   
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -124,134 +127,121 @@
         padding: 0%;
         width: 100vw;
         display: flex;
-        
+
         font-family: 'Rubik', sans-serif;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows:0.5fr 4fr 0.2fr ;
+        grid-template-rows: 0.5fr 4fr 0.2fr;
         gap: 2px 2px;
         grid-template-areas:
             "header"
             "mainservicios"
             "footer";
     }
-    
+
     .mainservicios {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
         align-content: center;
         justify-items: center;
-    
-    
+        align-items: center;
+        margin: 0 auto;
+        padding: auto;
+        text-align: center;
+
+
         grid-area: mainservicios;
-    
-    
+
+
         .servi {
-            width: 40%;
+            width: 60%;
             height: 80%;
             margin: 2px;
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-content: center; 
+            align-content: center;
             text-align: center;
-    
-    
+
+
         }
-    
+
         .colnaranja {
             background-color: #C54508;
             margin: 3px;
             padding: 2px;
             font-size: 1.5rem;
             line-height: 1.5rem;
-    
+
             .list {
                 list-style: none;
             }
-    
-    
-    
+
+
+
         }
-    
+
+        .colnaranja:hover {
+            transform: scale(100%);
+        }
+
         .colamarillo {
             background-color: #FFCC01;
             margin: 3px;
             padding: 2px;
             font-size: 1.5rem;
-    
+
             .list {
                 list-style: none;
             }
-    
+
         }
-    
+
+        .colamarillo:hover {
+            transform: scale(100%);
+        }
+
         .colblanco {
             background-color: #1B1C17;
             color: white;
             margin: 3px;
             padding: 2px;
             font-size: 1.5rem;
-    
+
             .list {
                 list-style: none;
             }
         }
-    
-    
-    
+
+        .colblanco:hover {
+            transform: scale(100%);
+        }
+
+
+
     }
-    .footer1 {
-        background-color: #FFCC01;
-        border-radius: 10px;
-        padding: 2%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
 
-        grid-area: footer;
-
-        .botoninicio {
-            font-size: 0.7rem;
-        }
-
-        .insta {
-            width: 40px;
-            height: 40px;
-        }
-
-        .marca {
-            display: flex;
-            align-items: flex-end;
-        }
-
-        .pie {
-            width: 100px;
-        }
-    }
-    
 }
-@media screen and (max-width: 420px){
+
+@media screen and (max-width: 420px) {
     .container4 {
         background-color: antiquewhite;
         padding: 0%;
         width: 100vw;
         display: flex;
-        
+
         font-family: 'Rubik', sans-serif;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows:0.5fr 4fr 0.2fr ;
+        grid-template-rows: 0.5fr 4fr 0.2fr;
         gap: 2px 2px;
         grid-template-areas:
             "header"
             "mainservicios"
             "footer";
     }
-    
+
     .mainservicios {
         display: flex;
         flex-direction: row;
@@ -259,11 +249,11 @@
         align-items: center;
         align-content: center;
         justify-items: center;
-    
-    
+
+
         grid-area: mainservicios;
-    
-    
+
+
         .servi {
             width: 40%;
             height: 80%;
@@ -271,83 +261,53 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-content: center; 
+            align-content: center;
             text-align: center;
-    
-    
+
+
         }
-    
+
         .colnaranja {
             background-color: #C54508;
             margin: 3px;
             padding: 2px;
             font-size: 1.5rem;
             line-height: 1.5rem;
-    
+
             .list {
                 list-style: none;
             }
-    
-    
-    
+
+
+
         }
-    
+
         .colamarillo {
             background-color: #FFCC01;
             margin: 3px;
             padding: 2px;
             font-size: 1.5rem;
-    
+
             .list {
                 list-style: none;
             }
-    
+
         }
-    
+
         .colblanco {
             background-color: #1B1C17;
             color: white;
             margin: 3px;
             padding: 2px;
             font-size: 1.5rem;
-    
+
             .list {
                 list-style: none;
             }
         }
-    
-    
-    
+
+
+
     }
-    .footer1 {
-        background-color: #FFCC01;
-        border-radius: 10px;
-        padding: 2%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
 
-        grid-area: footer;
-
-        .botoninicio {
-            font-size: 0.7rem;
-        }
-
-        .insta {
-            width: 40px;
-            height: 40px;
-        }
-
-        .marca {
-            display: flex;
-            align-items: flex-end;
-        }
-
-        .pie {
-            width: 100px;
-        }
-    }
-    
 }
-
