@@ -38,28 +38,21 @@
 @media screen and (max-width: 768px) {
     .container5 {
         background-color: antiquewhite;
-
         height: 100vh;
         margin: 0%;
         padding: 0%;
-        display: flex;
-        align-items: center;
         font-family: 'Rubik', sans-serif;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 1.5fr;
         gap: 2px 2px;
-        grid-template-areas:
-            "header "
-            "cajacontacto"
-            "footer ";
 
         .cajacontacto {
             grid-area: cajacontacto;
         }
     }
 
-    
+
 
     .cajacontacto {
         background-color: antiquewhite;
@@ -77,24 +70,19 @@
     }
 
 }
-@media screen and (max-width: 420px){
+
+@media screen and (max-width: 420px) {
     .container5 {
         background-color: antiquewhite;
-        
-        height:fit-content;
+        width: auto;
+        height: 100vh;
         margin: 0%;
         padding: 0%;
-        display: flex;
-        align-items: center;
         font-family: 'Rubik', sans-serif;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr ;
+        grid-template-rows: 0.5fr;
         gap: 2px 2px;
-        grid-template-areas:
-            "header "
-            "cajacontacto"
-            "footer"; 
 
         .cajacontacto {
             grid-area: cajacontacto;
@@ -105,7 +93,7 @@
     .cajacontacto {
         background-color: antiquewhite;
         width: 80vw;
-        height:fit-content;
+        height: fit-content;
         margin: 3% auto;
         padding: 2%;
         border-radius: 10%;
@@ -118,4 +106,3 @@
     }
 
 }
-

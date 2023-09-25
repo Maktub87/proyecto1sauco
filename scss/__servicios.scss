@@ -51,7 +51,7 @@
     }
 
     .colnaranja:hover {
-        transform: scale(120%);
+        transform: scale(150%);
     }
 
 
@@ -76,7 +76,7 @@
     }
 
     .colamarillo:hover {
-        transform: scale(120%);
+        transform: scale(150%);
     }
 
 
@@ -101,7 +101,7 @@
     }
 
     .colblanco:hover {
-        transform: scale(120%);
+        transform: scale(150%);
     }
 
 
@@ -126,17 +126,11 @@
         background-color: antiquewhite;
         padding: 0%;
         width: 100vw;
-        display: flex;
-
         font-family: 'Rubik', sans-serif;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 4fr 0.2fr;
         gap: 2px 2px;
-        grid-template-areas:
-            "header"
-            "mainservicios"
-            "footer";
     }
 
     .mainservicios {
@@ -229,17 +223,12 @@
         background-color: antiquewhite;
         padding: 0%;
         width: 100vw;
-        display: flex;
-
         font-family: 'Rubik', sans-serif;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 4fr 0.2fr;
         gap: 2px 2px;
-        grid-template-areas:
-            "header"
-            "mainservicios"
-            "footer";
+
     }
 
     .mainservicios {

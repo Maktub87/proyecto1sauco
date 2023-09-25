@@ -187,7 +187,7 @@
 }
 .container1 {
   background-color: #1B1C17;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   margin: auto;
   padding: 0;
@@ -697,7 +697,7 @@
   list-style: none;
 }
 .mainservicios .colnaranja:hover {
-  transform: scale(120%);
+  transform: scale(150%);
 }
 .mainservicios .colamarillo {
   background-color: #FFCC01;
@@ -717,7 +717,7 @@
   list-style: none;
 }
 .mainservicios .colamarillo:hover {
-  transform: scale(120%);
+  transform: scale(150%);
 }
 .mainservicios .colblanco {
   background-color: antiquewhite;
@@ -738,7 +738,7 @@
   list-style: none;
 }
 .mainservicios .colblanco:hover {
-  transform: scale(120%);
+  transform: scale(150%);
 }
 .mainservicios .boton {
   background-color: #1B1C17;
@@ -760,13 +760,11 @@
     background-color: antiquewhite;
     padding: 0%;
     width: 100vw;
-    display: flex;
     font-family: "Rubik", sans-serif;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 4fr 0.2fr;
     gap: 2px 2px;
-    grid-template-areas: "header" "mainservicios" "footer";
   }
   .mainservicios {
     display: flex;
@@ -834,13 +832,11 @@
     background-color: antiquewhite;
     padding: 0%;
     width: 100vw;
-    display: flex;
     font-family: "Rubik", sans-serif;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 4fr 0.2fr;
     gap: 2px 2px;
-    grid-template-areas: "header" "mainservicios" "footer";
   }
   .mainservicios {
     display: flex;
@@ -974,14 +970,11 @@
     height: 100vh;
     margin: auto;
     padding: 0%;
-    display: flex;
-    align-items: center;
     font-family: "Rubik", sans-serif;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 2px 2px;
-    grid-template-areas: "header " "mainclientes" "footer ";
   }
   .container3 .mainclientes {
     grid-area: mainclientes;
@@ -1054,8 +1047,6 @@
     height: 100vh;
     margin: auto;
     padding: 0%;
-    display: flex;
-    align-items: center;
     font-family: "Rubik", sans-serif;
     display: grid;
     grid-template-columns: 1fr;
@@ -1162,14 +1153,11 @@
     height: 100vh;
     margin: 0%;
     padding: 0%;
-    display: flex;
-    align-items: center;
     font-family: "Rubik", sans-serif;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1.5fr;
     gap: 2px 2px;
-    grid-template-areas: "header " "cajacontacto" "footer ";
   }
   .container5 .cajacontacto {
     grid-area: cajacontacto;
@@ -1190,17 +1178,15 @@
 @media screen and (max-width: 420px) {
   .container5 {
     background-color: antiquewhite;
-    height: fit-content;
+    width: auto;
+    height: 100vh;
     margin: 0%;
     padding: 0%;
-    display: flex;
-    align-items: center;
     font-family: "Rubik", sans-serif;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr;
     gap: 2px 2px;
-    grid-template-areas: "header " "cajacontacto" "footer";
   }
   .container5 .cajacontacto {
     grid-area: cajacontacto;
