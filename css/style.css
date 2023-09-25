@@ -5,8 +5,9 @@
 }
 
 .header {
-  background-color: white;
+  background: linear-gradient(#C54508, white);
   border-radius: 10px;
+  height: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -40,7 +41,7 @@
 }
 
 .footer1 {
-  background-color: #C54508;
+  background: linear-gradient(white, #C54508);
   border-radius: 10px;
   padding: 2%;
   display: flex;
@@ -58,7 +59,10 @@
 .footer1 .marca {
   display: flex;
   align-items: center;
+  color: darkred;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 .container1 {
   background-color: #1B1C17;
   width: 100vw;
@@ -348,6 +352,7 @@
   background-color: #FFCC01;
   color: #1B1C17;
   width: 90%;
+  height: 90%;
   margin: auto;
   font-size: 1.5rem;
   border-radius: 5%;
@@ -360,15 +365,14 @@
   justify-items: center;
 }
 .main .cajasobre .sobrenos {
-  height: fit-content;
   text-align: center;
   font-size: 2.5rem;
   letter-spacing: 2px;
   word-spacing: 2px;
-  margin: 3%;
+  margin: 1%;
 }
 .main .cajasobre .parnosotros {
-  margin: 2px;
+  margin: 10px;
   padding: 3px;
   font-size: 1.5rem;
   word-spacing: 3px;
@@ -588,7 +592,7 @@
   font-family: "Rubik", sans-serif;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 1.5fr;
+  grid-template-rows: 0.2fr 1.5fr 0.2fr;
   gap: 2px 2px;
   grid-template-areas: "header" "mainservicios" "footer";
 }
@@ -618,6 +622,9 @@
 .mainservicios .colnaranja .list {
   list-style: none;
 }
+.mainservicios .colnaranja:hover {
+  transform: scale(120%);
+}
 .mainservicios .colamarillo {
   background-color: #FFCC01;
   width: 300px;
@@ -634,6 +641,9 @@
 }
 .mainservicios .colamarillo .list {
   list-style: none;
+}
+.mainservicios .colamarillo:hover {
+  transform: scale(120%);
 }
 .mainservicios .colblanco {
   background-color: antiquewhite;
@@ -652,6 +662,9 @@
 }
 .mainservicios .colblanco .list {
   list-style: none;
+}
+.mainservicios .colblanco:hover {
+  transform: scale(120%);
 }
 .mainservicios .boton {
   background-color: #1B1C17;

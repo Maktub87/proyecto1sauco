@@ -7,7 +7,7 @@
     font-family: 'Rubik', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1.5fr;
+    grid-template-rows: 0.2fr 1.5fr 0.2fr;
     gap: 2px 2px;
     grid-template-areas:
         "header"
@@ -45,10 +45,14 @@
         .list {
             list-style: none;
         }
-
+       
 
 
     }
+    .colnaranja:hover{
+        transform: scale(120%);
+    }
+
 
     .colamarillo {
         background-color: #FFCC01;
@@ -69,6 +73,10 @@
         }
 
     }
+    .colamarillo:hover{
+        transform: scale(120%);
+    }
+
 
     .colblanco {
         background-color: antiquewhite;
@@ -89,6 +97,10 @@
             list-style: none;
         }
     }
+    .colblanco:hover{
+        transform: scale(120%);
+    }
+
 
     .boton {
         background-color: #1B1C17;
