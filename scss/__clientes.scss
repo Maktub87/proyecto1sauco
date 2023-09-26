@@ -1,6 +1,5 @@
 .container3 {
     background-color: #1B1C17;
-
     height: 100vh;
     margin: auto;
     padding: 0%;
@@ -22,7 +21,9 @@
 }
 
 .mainclientes {
+
     .clientestitulo {
+
         font-size: 3rem;
         color: #C54508;
         text-decoration: underline;
@@ -32,6 +33,7 @@
     .cajas {
         font-family: 'Rubik', sans-serif;
         font-size: 1.5rem;
+        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
