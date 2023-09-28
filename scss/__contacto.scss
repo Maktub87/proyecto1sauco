@@ -1,6 +1,5 @@
 .container5 {
     background-color: #1B1C17;
-
     height: 100vh;
     margin: auto;
     padding: 0%;
@@ -9,31 +8,34 @@
     font-family: 'Rubik', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1.5fr;
+    grid-template-rows: 0.5fr 1.5fr 0.5fr;
     gap: 2px 2px;
     grid-template-areas:
         "header "
         "cajacontacto"
         "footer ";
 
+    
+    
     .cajacontacto {
+        background-color: #FFCC01;
+        width: 65vw;
+        height: 80vh;
+        margin-left: 18% ;
+        padding: 2%;
+        border-radius: 10%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
         grid-area: cajacontacto;
+        
+    
     }
 }
 
-.cajacontacto {
-    background-color: #FFCC01;
-    width: 60vw;
-    height: 65vh;
-    margin: 3% auto;
-    padding: 2%;
-    border-radius: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-
-}
 
 @media screen and (max-width: 768px) {
     .container5 {
@@ -44,30 +46,36 @@
         font-family: 'Rubik', sans-serif;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1.5fr;
+        grid-template-rows:0.5 1fr 0.5fr;
         gap: 2px 2px;
+        grid-template-areas:
+        "header "
+        "cajacontacto"
+        "footer ";
+
+        
 
         .cajacontacto {
             grid-area: cajacontacto;
+        }
+        .cajacontacto {
+            background-color: antiquewhite;
+            width: 80vw;
+            height: 100vh;
+            margin: 3% auto;
+            padding: 2%;
+            border-radius: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+    
+    
         }
     }
 
 
 
-    .cajacontacto {
-        background-color: antiquewhite;
-        width: 80vw;
-        height: 60vh;
-        margin: 3% auto;
-        padding: 2%;
-        border-radius: 10%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-
-
-    }
 
 }
 
@@ -81,28 +89,33 @@
         font-family: 'Rubik', sans-serif;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr;
+        grid-template-rows:0.5fr 1fr 0.5fr;
         gap: 2px 2px;
+        grid-template-areas:
+        "header "
+        "cajacontacto"
+        "footer ";
+
 
         .cajacontacto {
             grid-area: cajacontacto;
         }
+        .cajacontacto {
+            background-color: antiquewhite;
+            width: 80vw;
+            height: 100%;
+            margin: 3% auto;
+            padding: 2%;
+            border-radius: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+    
+    
+        }
     }
 
 
-    .cajacontacto {
-        background-color: antiquewhite;
-        width: 80vw;
-        height: fit-content;
-        margin: 3% auto;
-        padding: 2%;
-        border-radius: 10%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-
-
-    }
 
 }

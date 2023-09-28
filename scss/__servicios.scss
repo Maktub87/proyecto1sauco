@@ -16,6 +16,7 @@
 }
 
 .mainservicios {
+    padding: 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -30,7 +31,7 @@
 
     .colnaranja {
         background-color: #C54508;
-        width: 300px;
+        width: 200px;
         height: 400px;
         margin: 3px;
         padding: 2px;
@@ -51,13 +52,13 @@
     }
 
     .colnaranja:hover {
-        transform: scale(150%);
+        transform: scale(120%);
     }
 
 
     .colamarillo {
         background-color: #FFCC01;
-        width: 300px;
+        width: 200px;
         height: 400px;
         margin: 3px;
         padding: 2px;
@@ -76,14 +77,14 @@
     }
 
     .colamarillo:hover {
-        transform: scale(150%);
+        transform: scale(120%);
     }
 
 
     .colblanco {
         background-color: antiquewhite;
         color: #1B1C17;
-        width: 300px;
+        width: 200px;
         height: 400px;
         margin: 3px;
         padding: 2px;
@@ -101,7 +102,7 @@
     }
 
     .colblanco:hover {
-        transform: scale(150%);
+        transform: scale(120%);
     }
 
 
@@ -110,11 +111,11 @@
         color: aliceblue;
         border: none;
         border-radius: 20%;
-        margin-left: 20%;
+        margin-left: 35%;
         width: 180px;
         font-size: 1rem;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-content: center;
         align-items: center;

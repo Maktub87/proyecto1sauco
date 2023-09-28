@@ -2,49 +2,22 @@
     background: linear-gradient(#C54508, white);
     border-radius: 10px;
     height: 150px;
+    margin: 0%;
+    padding: 0%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-
-
-
+    align-content: center;
+    justify-items: center;
+    align-items: center;
     grid-area: header;
 
-    .logoprincipal {
-        width: 200px;
-        margin: 2px;
-        border-radius: 10px;
-    }
+   
 
-    div {
-        .headermenu {
 
-            margin: 3px;
-            list-style: none;
-            display: flex;
-            align-items: center;
-            padding: 0.5rem;
-
-        }
-
-        .listmenu a {
-            color: #1B1C17;
-            text-decoration: none;
-            font-size: 1rem;
-            display: flex;
-            align-items: center;
-            padding: 1.5rem;
-
-        }
-
-        .listmenu a:hover {
-            background-color: #1B1C17;
-            color: #C54508;
-            border-radius: 10%;
-        }
-    }
 }
+
+
 
 @media screen and (max-width: 768px) {
     .header {
@@ -53,95 +26,33 @@
         height: 200px;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-content: space-evenly;
         justify-content: space-between;
 
 
 
         grid-area: header;
+        
+    
 
-        .logoprincipal {
-            width: auto;
-            margin: 5px;
-            border-radius: 10px;
-        }
 
-        div {
-            .headermenu {
-
-                margin: 3px;
-                list-style: none;
-                display: flex;
-                align-items: center;
-                padding: 0.5rem;
-
-            }
-
-            .listmenu a {
-                color: #1B1C17;
-                text-decoration: none;
-                font-size: 1rem;
-                display: flex;
-                align-items: center;
-                padding: 1.5rem;
-
-            }
-
-            .listmenu a:hover {
-                background-color: #1B1C17;
-                color: #C54508;
-                border-radius: 10%;
-            }
-        }
     }
-}
 
-@media screen and (max-width: 420px) {
-    .header {
-        background: linear-gradient(to right, #C54508, white, #C54508);
-        border-radius: 10px;
-        height: 200px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-
-
-        grid-area: header;
-
-        .logoprincipal {
-            width: auto;
-            margin: 5px;
+    @media screen and (max-width: 420px) {
+        .header {
+            background: linear-gradient(to right, #C54508, white, #C54508);
             border-radius: 10px;
-        }
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
 
-        div {
-            .headermenu {
 
-                margin: 3px;
-                list-style: none;
-                display: flex;
-                align-items: center;
-                padding: 0.5rem;
 
-            }
 
-            .listmenu a {
-                color: #1B1C17;
-                text-decoration: none;
-                font-size: 1rem;
-                display: flex;
-                align-items: center;
-                padding: 1.5rem;
+            grid-area: header;
 
-            }
-
-            .listmenu a:hover {
-                background-color: #1B1C17;
-                color: #C54508;
-                border-radius: 10%;
-            }
         }
     }
 }
