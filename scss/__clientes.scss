@@ -1,9 +1,9 @@
 .container3 {
-    background-color: #1B1C17;
+    background-color: $colorfondoprincipal;
     height: 100vh;
     width: 100vw;
     margin: 0% auto;
-    font-family: 'Rubik', sans-serif;
+    font-family: $tipografia;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -30,7 +30,7 @@
     }
 
     .cajas {
-        font-family: 'Rubik', sans-serif;
+        font-family: $tipografia;
         font-size: 1.5rem;
         width: 100vw;
         display: flex;
@@ -109,7 +109,7 @@
         height: 100vh;
         margin: auto;
         padding: 0%;
-        font-family: 'Rubik', sans-serif;
+        font-family: $tipografia;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -130,7 +130,7 @@
         }
 
         .cajas {
-            font-family: 'Rubik', sans-serif;
+            font-family: $tipografia;
             font-size: 1.5rem;
             display: flex;
             flex-direction: column;
@@ -209,7 +209,7 @@
         margin: auto;
         padding: 0%;
 
-        font-family: 'Rubik', sans-serif;
+        font-family: $tipografia;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -234,7 +234,7 @@
         }
 
         .cajas {
-            font-family: 'Rubik', sans-serif;
+            font-family: $tipografia;
             font-size: 1.5rem;
             display: flex;
             flex-direction: column;

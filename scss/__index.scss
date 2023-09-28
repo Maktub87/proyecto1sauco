@@ -1,12 +1,12 @@
 .container1 {
-    background-color: #1B1C17;
+    background-color: $colorfondoprincipal;
     width:auto;
     height: 100vh;
     margin: auto;
     padding: 0;
     display: flex;
     align-items: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: $tipografia;
     display: grid;
     grid-template-columns:1.5fr 1fr;
     grid-template-rows: 0.4fr 1.8fr 0.3fr ;
@@ -42,7 +42,7 @@
     background-color: #FFCC01;
     height: fit-content;
     border-radius: 10px;
-    font-family: 'Rubik', sans-serif;
+    font-family: $tipografia;
     font-size: 2.5rem;
     margin: 2px;
     display: flex;
@@ -55,7 +55,7 @@
     }
 
     .parrafo {
-        font-family: 'Rubik', sans-serif;
+        font-family: $tipografia;
         font-size: 2rem;
         letter-spacing: 2px;
         word-spacing: 1px;
@@ -69,7 +69,7 @@
         min-height: auto;
         display: flex;
         align-items: center;
-        font-family: 'Rubik', sans-serif;
+        font-family: $tipografia;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -203,7 +203,7 @@
         min-height: auto;
         display: flex;
         align-items: center;
-        font-family: 'Rubik', sans-serif;
+        font-family: $tipografia;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;

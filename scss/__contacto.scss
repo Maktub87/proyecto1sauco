@@ -1,11 +1,11 @@
 .container5 {
-    background-color: #1B1C17;
+    background-color: $colorfondoprincipal;
     height: 100vh;
     margin: auto;
     padding: 0%;
     display: flex;
     align-items: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: $tipografia;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1.5fr 0.5fr;
@@ -43,7 +43,7 @@
         height: 100vh;
         margin: 0%;
         padding: 0%;
-        font-family: 'Rubik', sans-serif;
+        font-family: $tipografia;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows:0.5 1fr 0.5fr;
@@ -86,7 +86,7 @@
         height: 100vh;
         margin: 0%;
         padding: 0%;
-        font-family: 'Rubik', sans-serif;
+        font-family: $tipografia;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows:0.5fr 1fr 0.5fr;
