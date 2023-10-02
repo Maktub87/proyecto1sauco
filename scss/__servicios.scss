@@ -22,13 +22,13 @@
     justify-content: space-evenly;
     align-items: center;
     align-content: space-evenly;
-
-
+    
+    
     grid-area: mainservicios;
-
-
-
-
+    
+    
+    
+    
     .colnaranja {
         background-color: #C54508;
         width: 200px;
@@ -46,16 +46,16 @@
         .list {
             list-style: none;
         }
-
+        
 
 
     }
-
+    
     .colnaranja:hover {
         transform: scale(120%);
     }
-
-
+    
+    
     .colamarillo {
         background-color: #FFCC01;
         width: 200px;
@@ -69,7 +69,7 @@
         justify-content: space-evenly;
         text-align: center;
         font-size: 1.5rem;
-
+        
         .list {
             list-style: none;
         }
@@ -80,7 +80,7 @@
         transform: scale(120%);
     }
 
-
+    
     .colblanco {
         background-color: antiquewhite;
         color: #1B1C17;
@@ -95,17 +95,17 @@
         justify-content: space-evenly;
         text-align: center;
         font-size: 1.5rem;
-
+        
         .list {
             list-style: none;
         }
     }
-
+    
     .colblanco:hover {
         transform: scale(120%);
     }
 
-
+    
     .boton {
         background-color: #1B1C17;
         color: aliceblue;
@@ -122,182 +122,3 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .container4 {
-        background-color: antiquewhite;
-        padding: 0%;
-        width: 100vw;
-        font-family: $tipografia;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 4fr 0.2fr;
-        gap: 2px 2px;
-    }
-
-    .mainservicios {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        justify-items: center;
-        align-items: center;
-        margin: 0 auto;
-        padding: auto;
-        text-align: center;
-
-
-        grid-area: mainservicios;
-
-
-        .servi {
-            width: 60%;
-            height: 80%;
-            margin: 2px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-content: center;
-            text-align: center;
-
-
-        }
-
-        .colnaranja {
-            background-color: #C54508;
-            margin: 3px;
-            padding: 2px;
-            font-size: 1.5rem;
-            line-height: 1.5rem;
-
-            .list {
-                list-style: none;
-            }
-
-
-
-        }
-
-        .colnaranja:hover {
-            transform: scale(100%);
-        }
-
-        .colamarillo {
-            background-color: #FFCC01;
-            margin: 3px;
-            padding: 2px;
-            font-size: 1.5rem;
-
-            .list {
-                list-style: none;
-            }
-
-        }
-
-        .colamarillo:hover {
-            transform: scale(100%);
-        }
-
-        .colblanco {
-            background-color: #1B1C17;
-            color: white;
-            margin: 3px;
-            padding: 2px;
-            font-size: 1.5rem;
-
-            .list {
-                list-style: none;
-            }
-        }
-
-        .colblanco:hover {
-            transform: scale(100%);
-        }
-
-
-
-    }
-
-}
-
-@media screen and (max-width: 420px) {
-    .container4 {
-        background-color: antiquewhite;
-        padding: 0%;
-        width: 100vw;
-        font-family: $tipografia;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 4fr 0.2fr;
-        gap: 2px 2px;
-
-    }
-
-    .mainservicios {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        justify-items: center;
-
-
-        grid-area: mainservicios;
-
-
-        .servi {
-            width: 40%;
-            height: 80%;
-            margin: 2px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-content: center;
-            text-align: center;
-
-
-        }
-
-        .colnaranja {
-            background-color: #C54508;
-            margin: 3px;
-            padding: 2px;
-            font-size: 1.5rem;
-            line-height: 1.5rem;
-
-            .list {
-                list-style: none;
-            }
-
-
-
-        }
-
-        .colamarillo {
-            background-color: #FFCC01;
-            margin: 3px;
-            padding: 2px;
-            font-size: 1.5rem;
-
-            .list {
-                list-style: none;
-            }
-
-        }
-
-        .colblanco {
-            background-color: #1B1C17;
-            color: white;
-            margin: 3px;
-            padding: 2px;
-            font-size: 1.5rem;
-
-            .list {
-                list-style: none;
-            }
-        }
-
-
-
-    }
-
-}
